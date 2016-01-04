@@ -40,7 +40,6 @@ div img {
 div.foto p {
   text-align: center;
   font-style: italic;
-/*   font-size: smaller; */
   font-family:Verdana, Geneva, sans-serif;
   text-indent: 0;
   
@@ -62,6 +61,8 @@ div.figura2 p {
 
 body {
 	width: 810px;
+		margin: 0 auto;
+		position: relative;
 	margin: 0 auto;
 	background: #3F5A9F;
 	position: relative;
@@ -110,6 +111,9 @@ b {
 
 /*  HEADER */
 #header {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	padding: 0px 0px 0px 0px;
 }
 
